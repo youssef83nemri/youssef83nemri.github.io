@@ -73,7 +73,7 @@ body {
     margin-bottom: 15px;
 }
 .rubrique h2 {
-    color: rgb(226,0,26);
+    color: #26c4ec;
 }
 .rubrique h2::before{
     margin-right: 5px;
@@ -99,7 +99,7 @@ body {
     top: 0;
     display: block;
     background: linear-gradient(to bottom, #ffffff 0%,
-        #E2001A 7%, #E2001A, #ffffff 100%);
+        #26c4ec 7%, #26c4ec, #ffffff 100%);
     content:"";
 }
 #parcours li {
