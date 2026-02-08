@@ -1,0 +1,23 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 8 févr. 2026, 10:21:46
+    Author     : youss
+*/
+h2 {
+    color : #191970 ;
+}
+h1 {
+    color : #191970;
+    text-align : center;
+}
+
+.soustitre {
+    text-align: center
+}
+
+.btn {
+    background-color: #26c4ec ;
+}

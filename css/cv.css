@@ -29,8 +29,8 @@ body {
 
 
 #cv-photo {
-    width: 172px;
-    height: 172px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     overflow: hidden;
     padding: 5px;
@@ -39,8 +39,8 @@ body {
 }
 
 #cv-photo img {
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 
@@ -273,7 +273,7 @@ body {
     font-size: 1.3em;
 }
 #competences .container .classement {
-    background: scroll transparent url(images/Red-Rating-Stars.png) no-repeat;
+    background: scroll transparent url(../images/Red-Rating-Stars.png) no-repeat;
     width: 160px;
     height: 27px;
 }
