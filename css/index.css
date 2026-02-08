@@ -6,6 +6,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Created on : 8 févr. 2026, 10:21:46
     Author     : youss
 */
+:root {
+    --bleu-nuit: #26c4ec;
+}
+
 h2 {
     color : #191970 ;
 }
@@ -14,10 +18,86 @@ h1 {
     text-align : center;
 }
 
+body {
+    background-color: var(--bleu-nuit);
+    padding-top: 80px; /* pour la navbar fixed */
+}
+
 .soustitre {
     text-align: center
 }
 
 .btn {
-    background-color: #26c4ec ;
+    background-color: #26c4ec ;  
+}
+
+.jumbotron {
+    background: transparent;
+    margin-bottom: 0;
+}
+
+.bloc-body {
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.bloc-header {
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 auto 40px auto;
+    max-width: 1200px;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.page-background {
+    padding: 40px 0;
+}
+
+#cv-entete {
+    margin-top: -45px;
+    width: 100%;
+}
+
+
+#cv-photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+    background: #26c4ec;
+    display: inline-block;
+}
+
+#cv-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#cv-intro h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.4em;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+#cv-intro h1 span {
+    color: rgb(226,0,26);
+}
+
+#cv-intro::after {
+    background: url('images/ligne.png');
+    /* Dossier "images" est un sous-dossier de "css" (à créer) */
+    width: 100%;
+    height: 3px;
+    margin-top: 15px;
+    content: '';
+    display: block;
 }
