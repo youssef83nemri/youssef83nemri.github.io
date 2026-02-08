@@ -296,15 +296,6 @@ body {
     background-position: 0 0px;
 }
 
-.bloc-body {
-    background-color: white;
-    border-radius: 20px;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 30px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-}
-
 .bloc-header {
     background-color: white;
     border-radius: 20px;
@@ -361,8 +352,6 @@ body {
     content: '';
     display: block;
 }
-
-
 
 
 .liste-icones {
