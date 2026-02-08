@@ -9,6 +9,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 body {
     padding-top: 50px;
+    background-color: #eee ;
 }
 
 .cadreCV {
@@ -64,6 +65,7 @@ body {
     margin-top: 15px;
     content: '';
     display: block;
+    
 }
 
 /****************************************
@@ -110,7 +112,7 @@ body {
 }
 #parcours .date .glyphicon-record::before {
     background: #FFFFFF;
-    color: #eee;
+    color: #26c4ec;
 }
 #parcours .date {
     width: 75px;
@@ -137,7 +139,7 @@ body {
     height: 0;
     width: 0;
     border: solid transparent;
-    border-right-color: #eee;
+    border-right-color: #26c4ec;
     border-width: 8px;
     pointer-events: none;
 }
@@ -297,7 +299,7 @@ body {
 }
 
 .bloc-header {
-    background-color: white;
+    background-color: #26c4ec;
     border-radius: 20px;
     margin: 0 auto 40px auto;
     max-width: 1200px;

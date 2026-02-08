@@ -6,9 +6,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Created on : 8 févr. 2026, 10:21:46
     Author     : youss
 */
-:root {
-    --bleu-nuit: #26c4ec;
-}
+
 
 h2 {
     color : #191970 ;
@@ -19,7 +17,7 @@ h1 {
 }
 
 body {
-    background-color: var(--bleu-nuit);
+    background-color: #eee ;
     padding-top: 80px; /* pour la navbar fixed */
 }
 
