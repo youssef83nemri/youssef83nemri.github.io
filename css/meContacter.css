@@ -1,0 +1,36 @@
+:root {
+    --bleu-nuit: #26c4ec;
+}
+
+h2 {
+    color : #191970 ;
+}
+h1 {
+    color : #191970;
+    text-align : center;
+}
+
+body {
+    background-color: var(--bleu-nuit);
+    padding-top: 80px; /* pour la navbar fixed */
+}
+
+.liste-icones {
+    list-style: none;
+    padding-left: 0;
+}
+
+.liste-icones li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.liste-icones i {
+    color: #191970;
+    min-width: 22px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
