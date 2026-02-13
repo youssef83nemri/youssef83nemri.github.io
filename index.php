@@ -85,9 +85,9 @@
     </section>
     <section id="thematique">
         <h1>Catégories les plus populaires</h1>
-        <article id="gauche"><a href="pages/route.html">Route</a></article>
-        <article id="milieu"><a href="pages/cross.html">Cross</a></article>
-        <article id="droite"><a href="pages/piste.html">Piste</a></article>
+        <article id="gauche"><a href="pages/route.php">Route</a></article>
+        <article id="milieu"><a href="pages/cross.php">Cross</a></article>
+        <article id="droite"><a href="pages/piste.php">Piste</a></article>
     </section>
     <footer>
         <p>&copy;2018 Nolark - Créé par <a href="mailto:jose.gil@ac-nice.fr">José GIL</a><p>
