@@ -35,8 +35,8 @@
             <ul>
                 <li><a href="index.php">Accueil</a></li>
                 <?php
-                $pages = ["route.html", "cross.html", "piste.html", "enfants.html",
-                    "nous-contacter.html"];
+                $pages = ["route.php", "cross.php", "piste.php", "enfants.php",
+                    "nous-contacter.php"];
                 $noms = ["Route", "Cross", "Piste", "Enfants", "Nous contacter"];
                 $nbLiens = count($pages);
                 for ($i = 0; $i < $nbLiens; $i++) {
