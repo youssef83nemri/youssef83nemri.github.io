@@ -17,27 +17,9 @@
         <link rel="icon" href="../favicon.ico">
     </head>
     <body>
-        <header>
-            <picture>
-                <source media="(max-width: 576px)" srcset="../images/banniere_small.png">
-                <source srcset="../images/banniere.png">
-                <img src="../images/banniere.png" alt="Nolark : Protect your minds ! Cette bannière montre un 
-                     coucher de soleil avec une femme embrassant un homme réalisant en stoppie sur sa
-                     moto.">
-                <!-- Image basée sur la création originale de ShiftGraphiX sur Pixabay : 
-                    https://pixabay.com/fr/couple-stoppie-sportive-vélomoteur-3156613/ -->
-            </picture>
-            <nav>
-                <ul>
-                    <li><a href="../index.php">Accueil</a></li>
-                    <li><a href="route.php">Route</a></li>
-                    <li><a href="cross.php">Cross</a></li>
-                    <li><a href="piste.php">Piste</a></li>
-                    <li><a href="enfants.php">Enfants</a></li>
-                    <li><a href="nous-contacter.php">Nous contacter</a></li>
-                </ul>
-            </nav>
-        </header>
+        <?php
+        include('../includes/header.html.inc.php');
+        ?>
         <section id="casques">
             <!-- - - - - - - - - - - - - - LIGNE N°1 - - - - - - - - - - - - -->
             <article>
@@ -303,10 +285,8 @@
                 <img class="classement classement40" src="../images/casques/etoiles.gif" alt="Classement 4 sur 5">
             </article>
         </section>
-
-
-        <footer>
-            <p>&copy;2018 Nolark - Créé par <a href="mailto:jose.gil@ac-nice.fr">José GIL</a><p>
-        </footer>
+        <?php
+            include('../includes/footer.inc.php');
+        ?>
     </body>
 </html>

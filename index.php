@@ -16,81 +16,54 @@
         <link rel="icon" href="favicon.ico">
     </head>
     <body>
-        <header>
-            <picture>
-                <source media="(max-width: 576px)" srcset="images/banniere_small.png">
-                <source srcset="images/banniere.png">
-                <img src="images/banniere.png" alt="Nolark : Protect your minds ! Cette bannière montre un 
-                     coucher de soleil avec une femme embrassant un homme réalisant en stoppie sur sa
-                     moto.">
-                <!-- Image basée sur la création originale de ShiftGraphiX sur Pixabay : 
-                    https://pixabay.com/fr/couple-stoppie-sportive-vélomoteur-3156613/ -->
-            </picture>
+        <?php
+            include('./includes/header.html.inc.php');
+        ?>
+        <section id="principal">
+            <article>
+                <img src="images/post-it.png" alt="Post-It : Penser à rentrer en vie">
+                <p>
+                    Au-delà de l'obligation légale, le port d'un casque est le garant de votre
+                    sécurité. Le choix de votre casque doit se faire en fonction de vos besoins 
+                    (route, cross, piste...).
+                </p>
+                <p>
+                    Spécialiste reconnu dans l'univers de la sécurité du deux-roues, Nolark vous 
+                    propose des milliers de modèles de casques disponibles au travers de plus de 
+                    50 marques. Vous trouverez ici tous les types de casques moto : jet, intégral, 
+                    modulable, transformable, piste, cross ou encore un large choix de casques 
+                    moto enfant (taille et poids spécialement adaptés).
+                </p>
+                <p>
+                    Nolark c'est également la disponibilité de toutes les couleurs et matières et 
+                    ce, pour toutes les bourses.
+                </p>
+                <p>
+                    Une question ? Un conseil ? Nos conseillers sont là pour vous aiguiller afin 
+                    de trouver le modèle qui correspond à vos besoins.
+                </p>
+                <p>
+                    Nolark n'est pas seulement un magasin de casques, c'est avant tout une équipe 
+                    de passionnés qui sélectionnent pour vous les meilleurs casques moto afin de 
+                    répondre au mieux à vos attentes.
+                </p>
+            </article>
+            <aside>
+                <img src="images/conseilcasque01.jpg" alt="Conseil du mois : Casque Cross">
+                <p>Pour le style: Furious replica</p>
+                <img src="images/conseilcasque02.jpg" alt="Conseil du mois : Intgéral Piste">
+                <p>Pour le confort: Stars racing</p>
+            </aside>
 
-            <nav>
-            <input type="checkbox">
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul>
-                <li><a href="index.php">Accueil</a></li>
-                <?php
-                $pages = ["route.php", "cross.php", "piste.php", "enfants.php",
-                    "nous-contacter.php"];
-                $noms = ["Route", "Cross", "Piste", "Enfants", "Nous contacter"];
-                $nbLiens = count($pages);
-                for ($i = 0; $i < $nbLiens; $i++) {
-                    ?>
-                    <li><a href="pages/<?php echo $pages[$i]; ?>"><?php echo $noms[$i]; ?></a></li>
-                <?php } ?>
-            </ul>
-        </nav>
-    </header>
-    <section id="principal">
-        <article>
-            <img src="images/post-it.png" alt="Post-It : Penser à rentrer en vie">
-            <p>
-                Au-delà de l'obligation légale, le port d'un casque est le garant de votre
-                sécurité. Le choix de votre casque doit se faire en fonction de vos besoins 
-                (route, cross, piste...).
-            </p>
-            <p>
-                Spécialiste reconnu dans l'univers de la sécurité du deux-roues, Nolark vous 
-                propose des milliers de modèles de casques disponibles au travers de plus de 
-                50 marques. Vous trouverez ici tous les types de casques moto : jet, intégral, 
-                modulable, transformable, piste, cross ou encore un large choix de casques 
-                moto enfant (taille et poids spécialement adaptés).
-            </p>
-            <p>
-                Nolark c'est également la disponibilité de toutes les couleurs et matières et 
-                ce, pour toutes les bourses.
-            </p>
-            <p>
-                Une question ? Un conseil ? Nos conseillers sont là pour vous aiguiller afin 
-                de trouver le modèle qui correspond à vos besoins.
-            </p>
-            <p>
-                Nolark n'est pas seulement un magasin de casques, c'est avant tout une équipe 
-                de passionnés qui sélectionnent pour vous les meilleurs casques moto afin de 
-                répondre au mieux à vos attentes.
-            </p>
-        </article>
-        <aside>
-            <img src="images/conseilcasque01.jpg" alt="Conseil du mois : Casque Cross">
-            <p>Pour le style: Furious replica</p>
-            <img src="images/conseilcasque02.jpg" alt="Conseil du mois : Intgéral Piste">
-            <p>Pour le confort: Stars racing</p>
-        </aside>
-
-    </section>
-    <section id="thematique">
-        <h1>Catégories les plus populaires</h1>
-        <article id="gauche"><a href="pages/route.php">Route</a></article>
-        <article id="milieu"><a href="pages/cross.php">Cross</a></article>
-        <article id="droite"><a href="pages/piste.php">Piste</a></article>
-    </section>
-    <footer>
-        <p>&copy;2018 Nolark - Créé par <a href="mailto:jose.gil@ac-nice.fr">José GIL</a><p>
-    </footer>
-</body>
+        </section>
+        <section id="thematique">
+            <h1>Catégories les plus populaires</h1>
+            <article id="gauche"><a href="pages/route.html">Route</a></article>
+            <article id="milieu"><a href="pages/cross.html">Cross</a></article>
+            <article id="droite"><a href="pages/piste.html">Piste</a></article>
+        </section>
+        <?php
+            include('./includes/footer.inc.php');
+        ?>
+    </body>
 </html>
